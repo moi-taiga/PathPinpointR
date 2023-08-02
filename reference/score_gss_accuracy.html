@@ -25,7 +25,7 @@
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
   <div class="dropdown-menu" aria-labelledby="dropdown-articles">
     <a class="dropdown-item" href="../articles/GSS_Workflow.html">GSS_Workflow</a>
-    <a class="dropdown-item" href="../articles/reprogramming_example.html">reprogramming_example</a>
+    <a class="dropdown-item" href="../articles/reprogramming_example.html">Reprogramming Example</a>
     <a class="dropdown-item" href="../articles/wholeanalysis.html">wholeanalysis</a>
   </div>
 </li>
@@ -56,17 +56,17 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">gss_obj</span>, <span class="va">reference.sce</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">reference.gss</span>, <span class="va">reference.gs</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
-    <dl><dt>gss_obj</dt>
+    <dl><dt>reference.gss</dt>
 <dd><p>A "GSS_OBJECT" as outputted by create_racing_lines</p></dd>
 
 
-<dt>reference.sce</dt>
-<dd><p>The SCE object which has had slingshot run on it already.</p></dd>
+<dt>reference.gs</dt>
+<dd><p>The GS object containing Pseudotime.</p></dd>
 
 </dl></div>
     <div class="section level2">
