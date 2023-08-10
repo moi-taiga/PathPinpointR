@@ -28,6 +28,9 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/index.html</loc>
   </url>
   <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/PPR_timeline_plot.html</loc>
+  </url>
+  <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/create_racing_lines.html</loc>
   </url>
   <url>
@@ -59,9 +62,6 @@
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/print.GSS_OBJECT.html</loc>
-  </url>
-  <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/racinglines_timeline.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/re_integrate.html</loc>
