@@ -61,7 +61,10 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/label_transfer.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/print.GSS_OBJECT.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_timeline_plot.html</loc>
+  </url>
+  <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/print.PPPR_OBJECT.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/re_integrate.html</loc>
