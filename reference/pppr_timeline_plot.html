@@ -56,7 +56,12 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">pppr_timeline_plot</span><span class="op">(</span><span class="va">reference.sg</span>, <span class="va">reference_reduced</span>, cell_idx <span class="op">=</span> <span class="fl">1</span>, lines <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">pppr_timeline_plot</span><span class="op">(</span></span>
+<span>  <span class="va">reference.sg</span>,</span>
+<span>  <span class="va">reduced_binary_counts_matrix</span>,</span>
+<span>  cell_idx <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  lines <span class="op">=</span> <span class="cn">TRUE</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -65,7 +70,7 @@
 <dd><p>A selection of switching genes which are evenly distributed through pseudo-time.</p></dd>
 
 
-<dt>reference_reduced</dt>
+<dt>reduced_binary_counts_matrix</dt>
 <dd><p>a matrix of your samples binary gene expression.</p></dd>
 
 

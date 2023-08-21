@@ -350,11 +350,11 @@ each cell of a sample.<a class="anchor" aria-label="anchor" href="#produce-an-es
 calculate the accuracy of GSS</em><a class="anchor" aria-label="anchor" href="#as-our-samples-are-subsets-of-the-reference-dataset-we-can-calculate-the-accuracy-of-gss"></a>
 </h5>
 <div class="sourceCode" id="cb23"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">fibroblast_accuracy</span>   <span class="op">&lt;-</span> <span class="fu"><a href="../reference/score_gss_accuracy.html">score_gss_accuracy</a></span><span class="op">(</span><span class="va">fibroblast.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
-<span><span class="va">mixed_accuracy</span>        <span class="op">&lt;-</span> <span class="fu"><a href="../reference/score_gss_accuracy.html">score_gss_accuracy</a></span><span class="op">(</span><span class="va">mixed.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
-<span><span class="va">early_primed_accuracy</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/score_gss_accuracy.html">score_gss_accuracy</a></span><span class="op">(</span><span class="va">early_primed.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
-<span><span class="va">primed_accuracy</span>       <span class="op">&lt;-</span> <span class="fu"><a href="../reference/score_gss_accuracy.html">score_gss_accuracy</a></span><span class="op">(</span><span class="va">primed.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
-<span><span class="va">reference_accuracy</span>    <span class="op">&lt;-</span> <span class="fu"><a href="../reference/score_gss_accuracy.html">score_gss_accuracy</a></span><span class="op">(</span><span class="va">reference.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="va">fibroblast_accuracy</span>   <span class="op">&lt;-</span> <span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">fibroblast.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
+<span><span class="va">mixed_accuracy</span>        <span class="op">&lt;-</span> <span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">mixed.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
+<span><span class="va">early_primed_accuracy</span> <span class="op">&lt;-</span> <span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">early_primed.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
+<span><span class="va">primed_accuracy</span>       <span class="op">&lt;-</span> <span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">primed.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
+<span><span class="va">reference_accuracy</span>    <span class="op">&lt;-</span> <span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">reference.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span></code></pre></div>
 </div>
 </div>
 <div class="section level3">
@@ -484,7 +484,7 @@ sample</em><a class="anchor" aria-label="anchor" href="#only-run-this-on-a-selec
 <span><span class="va">sample.gss</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/create_racing_lines.html">create_racing_lines</a></span><span class="op">(</span><span class="va">sample_reduced</span>, <span class="va">gss_genes</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co">#</span></span>
-<span><span class="va">accuracy</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/score_gss_accuracy.html">score_gss_accuracy</a></span><span class="op">(</span><span class="va">sample.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
+<span><span class="va">accuracy</span> <span class="op">&lt;-</span> <span class="fu">score_gss_accuracy</span><span class="op">(</span><span class="va">sample.gss</span>, <span class="va">reference.sce</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co">#</span></span>
 <span><span class="va">precision</span><span class="op">$</span><span class="va">n_genes</span><span class="op">[</span><span class="va">i</span><span class="op">+</span><span class="fl">1</span><span class="op">]</span>          <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span><span class="va">gss_genes</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>

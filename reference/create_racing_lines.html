@@ -59,7 +59,7 @@ This can be later aggregated to estimate the position of the sample along the tr
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">create_racing_lines</span><span class="op">(</span><span class="va">reduced_binary_counts_matrix</span>, <span class="va">gss_genes</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">create_racing_lines</span><span class="op">(</span><span class="va">reduced_binary_counts_matrix</span>, <span class="va">reference.sg</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -68,8 +68,8 @@ This can be later aggregated to estimate the position of the sample along the tr
 <dd><p>a matrix of your samples binary gene expression.</p></dd>
 
 
-<dt>gss_genes</dt>
-<dd><p>Switching genes which are evenly distributed through pseudotime.</p></dd>
+<dt>reference.sg</dt>
+<dd><p>Genes which switch through the trajectory as identified by GeneSwitches.</p></dd>
 
 </dl></div>
     <div class="section level2">

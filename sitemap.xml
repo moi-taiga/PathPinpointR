@@ -43,9 +43,6 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/flatten_cell_frequencies_owen.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/gss_cell_plot.html</loc>
-  </url>
-  <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/gss_output_plot.html</loc>
   </url>
   <url>
@@ -61,6 +58,12 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/label_transfer.html</loc>
   </url>
   <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_accuracy_test.html</loc>
+  </url>
+  <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_cell_plot.html</loc>
+  </url>
+  <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_timeline_plot.html</loc>
   </url>
   <url>
@@ -68,9 +71,6 @@
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/re_integrate.html</loc>
-  </url>
-  <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/score_gss_accuracy.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/select_evenly_distributed_switching_genes.html</loc>
