@@ -28,9 +28,6 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/index.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/create_racing_lines.html</loc>
-  </url>
-  <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/filter_gene_expression_for_switching_genes.html</loc>
   </url>
   <url>
@@ -59,6 +56,9 @@
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_precision.html</loc>
+  </url>
+  <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_predict_position.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_timeline_plot.html</loc>
