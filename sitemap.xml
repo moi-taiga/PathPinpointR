@@ -31,31 +31,37 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/filter_gene_expression_for_switching_genes.html</loc>
   </url>
   <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/flatten_cell_frequencies_moi.html</loc>
+  </url>
+  <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/flatten_cell_frequencies_owen.html</loc>
+  </url>
+  <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/gss_plot_cell_range.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_accuracy_test.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_accuracy_test.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_cell_plot.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_cell_plot.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_output_plot.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_output_plot.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_precision.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_precision.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_predict_position.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_predict_position.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/pppr_timeline_plot.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_timeline_plot.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/print.PPPR_OBJECT.html</loc>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/print.PPR_OBJECT.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/select_evenly_distributed_switching_genes.html</loc>

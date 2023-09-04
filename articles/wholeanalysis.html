@@ -619,7 +619,7 @@ genes, binary counts is from the patient and gs scorer is from atlas</p>
 way)<a class="anchor" aria-label="anchor" href="#combining-all-cells-racing-lines-after-binerization-owens-way-2"></a>
 </h2>
 <div class="sourceCode" id="cb42"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">preflat</span> <span class="op">&lt;-</span> <span class="fu">flatten_cell_frequencies_moi</span><span class="op">(</span><span class="va">list_of_cell_position_frequencies</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="va">preflat</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/flatten_cell_frequencies_moi.html">flatten_cell_frequencies_moi</a></span><span class="op">(</span><span class="va">list_of_cell_position_frequencies</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html" class="external-link">colSums</a></span><span class="op">(</span><span class="va">preflat</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">binary_counts_matrix_post</span><span class="op">&lt;-</span><span class="fu">assays</span><span class="op">(</span><span class="va">gs_post</span><span class="op">)</span><span class="op">$</span><span class="va">binary</span></span></code></pre></div>
@@ -647,7 +647,7 @@ genes, binary counts is from the patient and gs scorer is from atlas</p>
 <h2 id="combining-all-cells-racing-lines-after-binerization-and-plot">Combining all cells racing lines after binerization and plot<a class="anchor" aria-label="anchor" href="#combining-all-cells-racing-lines-after-binerization-and-plot"></a>
 </h2>
 <div class="sourceCode" id="cb47"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">postflat</span> <span class="op">&lt;-</span> <span class="fu">flatten_cell_frequencies_moi</span><span class="op">(</span><span class="va">list_of_cell_position_frequencies</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="va">postflat</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/flatten_cell_frequencies_moi.html">flatten_cell_frequencies_moi</a></span><span class="op">(</span><span class="va">list_of_cell_position_frequencies</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html" class="external-link">colSums</a></span><span class="op">(</span><span class="va">postflat</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
 <div class="section level3">
 <h3 id="view-the-differnece-between-patients">view the differnece between patients<a class="anchor" aria-label="anchor" href="#view-the-differnece-between-patients"></a>
