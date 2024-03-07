@@ -13,6 +13,9 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/articles/GSS_Workflow.html</loc>
   </url>
   <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/articles/covid.html</loc>
+  </url>
+  <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/articles/index.html</loc>
   </url>
   <url>
@@ -29,15 +32,6 @@
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/filter_gene_expression_for_switching_genes.html</loc>
-  </url>
-  <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/flatten_cell_frequencies_moi.html</loc>
-  </url>
-  <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/flatten_cell_frequencies_owen.html</loc>
-  </url>
-  <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/gss_plot_cell_range.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/index.html</loc>
@@ -62,8 +56,5 @@
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/print.PPR_OBJECT.html</loc>
-  </url>
-  <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/select_evenly_distributed_switching_genes.html</loc>
   </url>
 </urlset>
