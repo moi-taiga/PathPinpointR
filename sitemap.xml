@@ -31,9 +31,6 @@
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/index.html</loc>
   </url>
   <url>
-    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/filter_gene_expression_for_switching_genes.html</loc>
-  </url>
-  <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/index.html</loc>
   </url>
   <url>
@@ -41,6 +38,9 @@
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_cell_plot.html</loc>
+  </url>
+  <url>
+    <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_filter_gene_expression_for_switching_genes.html</loc>
   </url>
   <url>
     <loc>https://moi-taiga.github.io/GeneSwitchesScorer/reference/ppr_output_plot.html</loc>
