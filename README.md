@@ -38,8 +38,10 @@ vignette.
     new_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
     if(length(new_packages)) BiocManager::install(new_packages)
 
-    # for package "GeneSwitches"
-    devtools::install_github("SGDDNB/GeneSwitches")
+    # Check if GeneSwitches is installed before attempting to install it
+    if (!requireNamespace("GeneSwitches", quietly = TRUE)) {
+      devtools::install_github("SGDDNB/GeneSwitches")
+    }
 
 #### install PathPinpointR
 
