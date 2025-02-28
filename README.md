@@ -24,9 +24,9 @@ Run the following code to load all packages neccecary for PPR & this
 vignette.
 
     required_packages <- c("SingleCellExperiment", "Biobase", "fastglm", "ggplot2",
-                           "monocle", "plyr", "RColorBrewer", "ggrepel", "ggridges",
+                           "plyr", "RColorBrewer", "ggrepel", "ggridges",
                            "gridExtra", "devtools", "mixtools", "Seurat",
-                           "parallel", "RColorBrewer")
+                           "parallel", "vioplot", "SummarizedExperiment")
 
     ## for packages "fastglm", "ggplot2", "plyr", "RColorBrewer",
     # "ggrepel", "ggridges", "gridExtra", "mixtools"
